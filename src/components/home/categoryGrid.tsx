@@ -77,7 +77,7 @@ const CategoryGrid: React.FC = () => {
         {categories.map((category) => (
           <div key={category.name} className="px-2">
             <div className="flex flex-col bg-gray-100 p-4 rounded-lg text-center cursor-pointer hover:bg-gray-200 h-full text-center justify-center items-center">
-              <img src={category.imgUrl} alt={category.name} className=" w-16 h-16 rounded-lg" />
+              <img src={category.imgUrl} alt={category.name} className="w-16 h-16 rounded-lg" />
               <div className="text-sm">{category.name}</div>
             </div>
           </div>
@@ -85,6 +85,7 @@ const CategoryGrid: React.FC = () => {
       </Slider>
     </div>
   );
+  
 };
 
 export default CategoryGrid;
