@@ -2,6 +2,13 @@
 
 This project is a furniture store application built with React, TypeScript, and Vite. It showcases various furniture collections, fabrics, and customization options.
 
+## Live Demo
+
+Check out the live demo of the project [here](https://nxtwave-assignment-c1433.web.app).
+
+## Project Video
+
+Watch the project video [here](https://drive.google.com/file/d/1wQhjzZdI_86ZzCec_LLMC1dzcNiDHvzd/view?usp=sharing).
 
 ## Technologies Used
 
@@ -32,44 +39,3 @@ To get started with the project, follow these steps:
    npm run dev
    ```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` with `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
