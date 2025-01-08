@@ -22,7 +22,7 @@ const InteriorDesignSection = () => {
 
   return (
     <div className="relative w-full max-w-6xl mx-auto px-4 py-4">
-      {/* Main Content */}
+      
       <div className="text-center mb-4">
         <h1 className="text-2xl font-bold mb-2">Interior Designing</h1>
         <p className="text-gray-600 max-w-2xl mx-auto mb-4 text-sm">
@@ -33,7 +33,7 @@ const InteriorDesignSection = () => {
         </button>
       </div>
 
-      {/* Slider Section */}
+     
       <div className="relative overflow-hidden rounded-lg">
         <div className="relative h-80 flex justify-center items-center">
           <img
@@ -41,7 +41,7 @@ const InteriorDesignSection = () => {
             alt="Interior Design"
             className="w-3/4 h-full object-cover rounded-lg"
           />
-          {/* Navigation Buttons */}
+          
           <button
             className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black text-white rounded-full p-2 hover:bg-gray-800"
             onClick={prevSlide}
@@ -57,7 +57,7 @@ const InteriorDesignSection = () => {
         </div>
       </div>
 
-      {/* Slide Indicators */}
+      
       <div className="flex justify-center gap-2 mt-3">
         {slides.map((_, index) => (
           <button

@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
     <footer className="bg-black text-white pt-8 pb-4">
   <div className="container mx-auto px-4">
     <div className="grid flex flex-row grid-cols-1 md:grid-cols-12 gap-4">
-      {/* Logo and Description Column */}
+      
       <div className="md:col-span-4 flex flex-col">
         <div className="mb-4">
           <img src="https://s3-alpha-sig.figma.com/img/d7fb/35d1/0a5d5473989ba4ec575b8af8fe1f746c?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n-vbAPQ05LmD8Nda2f2mGNfZTgj7C6YBEioDb~0ls1JxMZ5voB4rtvKkqDu8mDFa9VKS4X~28N4hO14wVLH-Aaips877QZP2jTVclw~oKbP2-R0Qz-NXaQES6jgHdYYG6XJTT31iOazUoRUpPb3Y9U-8~DwuxkzPZnq5SG3zOgqASsaIeiHiO7uId7sMl7jnpznKoyNk~F-lEI73oUHez4df0sd86oEDWzKWRAGY~oxiwQv2J5iJ3PZpHP3RN-~i7P29JdHP6US2hi4N-MOlhHADGHdxVYkiuJ~y4k1eyZUHYlLo-~TAMM1nHamq4uA7BPtgQPLwN19MZEeOlGHqOw__" alt="Logo" className="w-16 h-16" />
@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
       </div>
     </div>
 
-    {/* Copyright and Payment Methods */}
+    
     <div className="border-t border-white-800 p-2 mt-2">
       <div className="flex flex-col justify-between items-center">
         <p className="text-gray-400 text-sm mb-2 md:mb-0">

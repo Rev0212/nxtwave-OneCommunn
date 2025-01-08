@@ -27,16 +27,15 @@ const AboutUs: React.FC = () => {
   return (
     <section className="py-8 bg-white">
       <div className="container mx-auto px-4">
-        {/* Main Heading */}
+        
         <h2 className="text-3xl font-bold text-center mb-3">About us</h2>
-        {/* Subheading */}
+        
         <p className="text-base text-center text-gray-600 mb-8">
           Discover the epitome of luxury living with our exclusive furniture collection. Each piece is meticulously crafted to bring sophistication and elegance to your home.
         </p>
 
-        {/* Grid Layout for Text and Images */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {/* Left: 2x2 Text Grid */}
+         
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {features.map((feature, index) => (
               <div key={index} className="text-center">
@@ -46,7 +45,7 @@ const AboutUs: React.FC = () => {
             ))}
           </div>
 
-          {/* Right: 2x2 Image Grid with Reduced Heights */}
+          
           <div className="grid grid-cols-2 gap-3">
             <img src="https://s3-alpha-sig.figma.com/img/ad11/da20/4602ad8de35932ce40f24208390c97d2?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fAmmNVd8A5iSxqk-8mKu6p5VM2smqpu5SopBlOZzm4PZ6kQWL6ekh1icuZn~xLGr7WnDNOj5abTzg~QaejYKZzj9paoLpKucUQAywBmjlhgcALqclOr2jxLUmqw8C9jS1xapht4XVLLDxfZmQNZInR3fLULnll-VAHwS0gZEstrAm3owY3VulbmIS7RCSVjC56aV6sW7mBrL941qm~UagUFV82EIcCNqdxM~-XFHetxF6-baGCdEcDYs7XXf-2eKYoZVlpdmQf-AIU9zopJ3CT-6IfRyI7Tgy3DOikAjHHtVwkgKZZll87JXZnx~NK1XEpQBEOyWG8sPEyGRkisnVw__" className="w-full h-40 object-cover rounded-lg" alt="Furniture" />
             <img src="https://s3-alpha-sig.figma.com/img/f63e/511e/0c1ef834c3ececefcb0b61aa952ac3fd?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=d5PYv8PGsZnwNqIj8PkgCZkGylMA0u2M7YbZMAu2OOSNdzlm~psoNof38VKrQkt18BT0s35NThJWgkIge52ap0bRARJRtjngutr09VdP28k-zIW09WU8kZ~v2WX79NB1a~gkLb-PFVkxlSUjinQPAcOY5Qhm~~F45hiuaQHU04JHfaxw1~c9HsfyM1N0Pmwj8CUOox1mS4pSgEodhIWscy8Bwm6K-NGRb1EJ0miAbM9w46lJB1hdbXT7pibLK5taQH68LBAdE0~dLcTTVdf8zS0w7iXB0xTQMSGf3HQnOfLSiRQ7dQiWcj1hanKsnX7G8kD4Jkj1IcZbS7oaTlYS4w__" className="w-full h-40 object-cover rounded-lg" alt="Furniture" />

@@ -57,7 +57,7 @@ const TrendingProducts = () => {
   return (
     <section className="py-8">
       <div className="container mx-auto px-4">
-        {/* Header */}
+        
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-2">
             <Sofa className="w-6 h-6" />
@@ -73,7 +73,7 @@ const TrendingProducts = () => {
           </div>
         </div>
 
-        {/* Products Grid */}
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {products.map((product) => (
             <div key={product.id} className="bg-white rounded-lg overflow-hidden group">
